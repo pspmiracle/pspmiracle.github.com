@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>404 error. Page not found! Porubov.com</title>
+
+<script src="http://code.createjs.com/easeljs-0.5.0.min.js"></script>
+<script src="http://code.createjs.com/tweenjs-0.3.0.min.js"></script>
+<script src="http://code.createjs.com/movieclip-0.5.0.min.js"></script>
+<script src="404flash.js"></script>
+<style type="text/css">
+html, body{
+    padding:0px;
+    margin:0px;
+    background-color:#00FFF6;
+}
+#canvas{ 
+    background-color:#00FFF6;
+    position:absolute;
+    top:50%;
+    left: 50%;
+    margin-left: -185px;
+    margin-top: -75px;
+    
+}
+</style>
+<script>
+function delayer() {window.location = "http://porubov.com"}
+var canvas, stage, exportRoot;
+function handleBalloonClick(eventObj) {				
+	window.location = "http://porubov.com";
+}
+function handleMouseOver(eventObj) {
+	this.gotoAndStop(1);
+	 document.body.style.cursor='pointer';
+}
+function handleMouseOut(eventObj) {
+	this.gotoAndStop(0);
+	 document.body.style.cursor='default';
+}
+function AddMcListeners(mc) {
+	mc.stop();
+	mc.onClick = handleBalloonClick;
+	mc.onMouseOver = handleMouseOver;
+	mc.onMouseOut = handleMouseOut;
+}
+function init() {
+	canvas = document.getElementById("canvas");
+	exportRoot = new lib._404flash();
+
+	stage = new createjs.Stage(canvas);
+	stage.addChild(exportRoot);
+	stage.update();
+	stage.enableMouseOver();
+	createjs.Touch.enable(stage);
+
+
+	createjs.Ticker.setFPS(24);
+	createjs.Ticker.useRAF = true;
+	createjs.Ticker.addListener(stage);
+
+
+	AddMcListeners(exportRoot.btn3);
+	//setTimeout('delayer()', 5000);
+}
+
+</script>
+
+</head>
+
+<body onload="init();">
+	<canvas id="canvas" width="371" height="150" style="background-color:#00FFF6"></canvas>
+</body>
+</html>

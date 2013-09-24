@@ -1,0 +1,238 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"wi",
+				"window"
+			],
+			[
+				"bt",
+				"btn3"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"exp",
+				"exportRoot"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 4142,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Untitled-2.html",
+			"settings":
+			{
+				"buffer_size": 1304,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/pspmiracle/Documents/Projects/Github/sitetest/pspmiracle.github.com/404.html",
+		"/Users/pspmiracle/Desktop/git_tutorial/work/hello/hello.html",
+		"/Users/pspmiracle/Desktop/Bots/swfobject.js",
+		"/Applications/COLT/configuration/config.ini",
+		"/Applications/COLT/projects/CitrusPlatformer/readme.md",
+		"/Users/pspmiracle/Documents/Projects/Soft and Libs/README.md",
+		"/Users/pspmiracle/Documents/Projects/iOS/NewStarlingTest/out/production/New Starling Test/Payload/Starling-Demo.app/README.md",
+		"/Users/pspmiracle/Downloads/livecoding_examples-master/Paint/project/src/Brush.as",
+		"/Users/pspmiracle/Downloads/livecoding_examples-master/Paint/project/src/Main.as",
+		"/Users/pspmiracle/Documents/Projects/Github/sitetest/pspmiracle.github.com/.gitignore",
+		"/Users/pspmiracle/Documents/Projects/Github/sitetest/pspmiracle.github.com/404flash.js",
+		"/Users/pspmiracle/Documents/Projects/Github/sitetest/pspmiracle/CNAME",
+		"/Users/pspmiracle/Documents/Projects/Github/sitetest/pspmiracle/Untitled-2.html",
+		"/Users/pspmiracle/Desktop/JSSite/MainPage.html",
+		"/Users/pspmiracle/Desktop/JSSite/Untitled-2.js",
+		"/Users/pspmiracle/Desktop/GameDev.html",
+		"/Users/pspmiracle/Desktop/GameDev.js",
+		"/Users/pspmiracle/Desktop/Untitled-2.html",
+		"/Users/pspmiracle/Desktop/Untitled-2.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"stage"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 4142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3107,
+								3107
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Untitled-2.html",
+					"settings":
+					{
+						"buffer_size": 1304,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								711,
+								711
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
